@@ -2,11 +2,11 @@
 
 pragma solidity 0.6.12;
 
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
-import "@openzeppelin/contracts/utils/EnumerableSet.sol";
-import "@openzeppelin/contracts/math/SafeMath.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "./Openzeppelin/IERC20.sol";
+import "./Openzeppelin/SafeERC20.sol";
+import "./Openzeppelin/EnumerableSet.sol";
+import "./Openzeppelin/SafeMath.sol";
+import "./Openzeppelin/Ownable.sol";
 import "./SushiToken.sol";
 
 interface IMigratorChef {

@@ -3,9 +3,9 @@
 pragma solidity 0.6.12;
 pragma experimental ABIEncoderV2;
 import "../interfaces/IRewarder.sol";
-import "@boringcrypto/boring-solidity/contracts/libraries/BoringERC20.sol";
-import "@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol";
-import "@boringcrypto/boring-solidity/contracts/BoringOwnable.sol";
+import "../BoringSolidity/BoringERC20.sol";
+import "../BoringSolidity/BoringMath.sol";
+import "../BoringSolidity/BoringOwnable.sol";
 import "../MasterChefV2.sol";
 
 /// @author @0xKeno
